@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Frequency Tool</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index.css"/>
+                <link rel="stylesheet" href="./css/reset.css"/>
+    </head>
+    <body onload="init()">
+        <header>
+            <img src="./img/frequencia.png"/>
+            <h1>Detecção de Frequência</h1>
+        </header>
+        <nav>
+            <a id="a-home" href="apre.html" target="dados">Home</a>
+            <a href="readData.jsp" target="dados">Visualizar Dados</a>
+            <a href="./excel.jsp" target="dados">Cadastrar Dados com Excel</a>
+        </nav>
+        
+        <main>
+            <iframe name="dados" title="Dados do sistema"></iframe>
+            
+        </main>
+        <script>
+            const homePage = document.getElementById('a-home')
+            function init(){
+                homePage.click();
+            }
+        </script>
+    </body>
+</html>

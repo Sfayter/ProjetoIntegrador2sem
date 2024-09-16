@@ -1,0 +1,348 @@
+25-Nov-2023 07:44:55.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.92
+25-Nov-2023 07:44:55.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2023 11:22:56 UTC
+25-Nov-2023 07:44:55.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.92.0
+25-Nov-2023 07:44:55.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Nov-2023 07:44:55.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Nov-2023 07:44:55.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Nov-2023 07:44:55.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+25-Nov-2023 07:44:55.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+25-Nov-2023 07:44:55.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Nov-2023 07:44:55.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 07:44:55.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 07:44:55.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Nov-2023 07:44:55.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Nov-2023 07:44:55.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Nov-2023 07:44:55.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Nov-2023 07:44:55.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Nov-2023 07:44:55.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projetos\NetBeans\crud\tomcat\conf\logging.properties
+25-Nov-2023 07:44:55.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2023 07:44:55.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2023 07:44:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2023 07:44:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Nov-2023 07:44:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 07:44:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 07:44:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projetos\NetBeans\crud\tomcat\temp
+25-Nov-2023 07:44:55.667 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+25-Nov-2023 07:44:55.668 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+25-Nov-2023 07:44:55.668 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Nov-2023 07:44:55.724 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+25-Nov-2023 07:44:55.801 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 07:44:55.858 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1102 ms
+25-Nov-2023 07:44:56.054 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Nov-2023 07:44:56.055 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.92]
+25-Nov-2023 07:44:56.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml]
+25-Nov-2023 07:44:57.596 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 07:44:57.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml] has finished in [1,654] ms
+25-Nov-2023 07:44:57.743 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml]
+25-Nov-2023 07:44:58.643 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 07:44:58.649 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml] has finished in [905] ms
+25-Nov-2023 07:44:58.650 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs]
+25-Nov-2023 07:44:58.740 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs] has finished in [90] ms
+25-Nov-2023 07:44:58.740 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples]
+25-Nov-2023 07:45:00.334 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples] has finished in [1,594] ms
+25-Nov-2023 07:45:00.335 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager]
+25-Nov-2023 07:45:00.423 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager] has finished in [88] ms
+25-Nov-2023 07:45:00.423 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager]
+25-Nov-2023 07:45:00.502 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager] has finished in [79] ms
+25-Nov-2023 07:45:00.502 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT]
+25-Nov-2023 07:45:00.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT] has finished in [46] ms
+25-Nov-2023 07:45:00.550 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 07:45:00.658 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4793 ms
+25-Nov-2023 07:58:50.742 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Nov-2023 07:58:50.743 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 07:58:50.750 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Nov-2023 07:58:50.787 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PI] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2023 07:58:50.787 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PI] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1759)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1589)
+25-Nov-2023 07:58:50.801 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 07:58:50.817 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 07:58:57.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.92
+25-Nov-2023 07:58:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2023 11:22:56 UTC
+25-Nov-2023 07:58:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.92.0
+25-Nov-2023 07:58:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Nov-2023 07:58:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Nov-2023 07:58:57.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Nov-2023 07:58:57.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+25-Nov-2023 07:58:57.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+25-Nov-2023 07:58:57.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Nov-2023 07:58:57.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 07:58:57.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 07:58:57.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Nov-2023 07:58:57.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Nov-2023 07:58:57.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Nov-2023 07:58:57.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Nov-2023 07:58:57.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Nov-2023 07:58:57.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projetos\NetBeans\crud\tomcat\conf\logging.properties
+25-Nov-2023 07:58:57.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2023 07:58:57.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2023 07:58:57.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2023 07:58:57.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Nov-2023 07:58:57.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 07:58:57.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 07:58:57.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projetos\NetBeans\crud\tomcat\temp
+25-Nov-2023 07:58:57.171 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+25-Nov-2023 07:58:57.172 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+25-Nov-2023 07:58:57.172 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Nov-2023 07:58:57.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+25-Nov-2023 07:58:57.337 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 07:58:57.373 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 882 ms
+25-Nov-2023 07:58:57.444 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Nov-2023 07:58:57.445 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.92]
+25-Nov-2023 07:58:57.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml]
+25-Nov-2023 07:58:58.598 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 07:58:58.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml] has finished in [1,281] ms
+25-Nov-2023 07:58:58.743 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml]
+25-Nov-2023 07:58:59.506 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 07:58:59.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml] has finished in [771] ms
+25-Nov-2023 07:58:59.514 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs]
+25-Nov-2023 07:58:59.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs] has finished in [47] ms
+25-Nov-2023 07:58:59.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples]
+25-Nov-2023 07:59:00.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples] has finished in [628] ms
+25-Nov-2023 07:59:00.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager]
+25-Nov-2023 07:59:00.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager] has finished in [64] ms
+25-Nov-2023 07:59:00.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager]
+25-Nov-2023 07:59:00.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager] has finished in [79] ms
+25-Nov-2023 07:59:00.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT]
+25-Nov-2023 07:59:00.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT] has finished in [35] ms
+25-Nov-2023 07:59:00.370 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 07:59:00.433 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3055 ms
+25-Nov-2023 07:59:45.158 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Nov-2023 07:59:45.158 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 07:59:45.166 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Nov-2023 07:59:45.211 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 07:59:45.223 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:00:09.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.92
+25-Nov-2023 08:00:09.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2023 11:22:56 UTC
+25-Nov-2023 08:00:09.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.92.0
+25-Nov-2023 08:00:09.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Nov-2023 08:00:09.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Nov-2023 08:00:09.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Nov-2023 08:00:09.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+25-Nov-2023 08:00:09.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+25-Nov-2023 08:00:09.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Nov-2023 08:00:09.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:00:09.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:00:09.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Nov-2023 08:00:09.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Nov-2023 08:00:09.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Nov-2023 08:00:09.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Nov-2023 08:00:09.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Nov-2023 08:00:09.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projetos\NetBeans\crud\tomcat\conf\logging.properties
+25-Nov-2023 08:00:09.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2023 08:00:09.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2023 08:00:09.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2023 08:00:09.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Nov-2023 08:00:09.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:00:09.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:00:09.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projetos\NetBeans\crud\tomcat\temp
+25-Nov-2023 08:00:09.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+25-Nov-2023 08:00:09.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+25-Nov-2023 08:00:09.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Nov-2023 08:00:09.973 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+25-Nov-2023 08:00:10.029 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:00:10.060 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 843 ms
+25-Nov-2023 08:00:10.128 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Nov-2023 08:00:10.129 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.92]
+25-Nov-2023 08:00:10.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml]
+25-Nov-2023 08:00:11.251 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 08:00:11.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml] has finished in [1,232] ms
+25-Nov-2023 08:00:11.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml]
+25-Nov-2023 08:00:12.102 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 08:00:12.107 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml] has finished in [731] ms
+25-Nov-2023 08:00:12.108 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs]
+25-Nov-2023 08:00:12.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs] has finished in [59] ms
+25-Nov-2023 08:00:12.167 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples]
+25-Nov-2023 08:00:12.926 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples] has finished in [760] ms
+25-Nov-2023 08:00:12.927 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager]
+25-Nov-2023 08:00:12.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager] has finished in [71] ms
+25-Nov-2023 08:00:12.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager]
+25-Nov-2023 08:00:13.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager] has finished in [81] ms
+25-Nov-2023 08:00:13.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT]
+25-Nov-2023 08:00:13.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT] has finished in [43] ms
+25-Nov-2023 08:00:13.125 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:00:13.205 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3143 ms
+25-Nov-2023 08:00:30.825 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/PI]
+25-Nov-2023 08:00:51.029 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Nov-2023 08:00:51.030 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:00:51.039 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Nov-2023 08:00:51.062 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:00:51.079 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:01:33.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.92
+25-Nov-2023 08:01:33.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2023 11:22:56 UTC
+25-Nov-2023 08:01:33.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.92.0
+25-Nov-2023 08:01:33.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Nov-2023 08:01:33.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Nov-2023 08:01:33.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Nov-2023 08:01:33.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+25-Nov-2023 08:01:33.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+25-Nov-2023 08:01:33.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Nov-2023 08:01:33.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:01:33.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:01:33.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Nov-2023 08:01:33.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Nov-2023 08:01:33.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Nov-2023 08:01:33.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Nov-2023 08:01:33.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Nov-2023 08:01:33.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projetos\NetBeans\crud\tomcat\conf\logging.properties
+25-Nov-2023 08:01:33.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2023 08:01:33.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2023 08:01:33.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2023 08:01:33.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Nov-2023 08:01:33.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:01:33.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:01:33.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projetos\NetBeans\crud\tomcat\temp
+25-Nov-2023 08:01:33.630 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+25-Nov-2023 08:01:33.630 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+25-Nov-2023 08:01:33.630 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Nov-2023 08:01:33.748 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+25-Nov-2023 08:01:33.817 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:01:33.873 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1181 ms
+25-Nov-2023 08:01:33.956 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Nov-2023 08:01:33.956 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.92]
+25-Nov-2023 08:01:33.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml]
+25-Nov-2023 08:01:35.056 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 08:01:35.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml] has finished in [1,182] ms
+25-Nov-2023 08:01:35.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs]
+25-Nov-2023 08:01:35.213 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs] has finished in [60] ms
+25-Nov-2023 08:01:35.214 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples]
+25-Nov-2023 08:01:35.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples] has finished in [683] ms
+25-Nov-2023 08:01:35.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager]
+25-Nov-2023 08:01:35.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager] has finished in [64] ms
+25-Nov-2023 08:01:35.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager]
+25-Nov-2023 08:01:36.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager] has finished in [84] ms
+25-Nov-2023 08:01:36.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT]
+25-Nov-2023 08:01:36.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT] has finished in [42] ms
+25-Nov-2023 08:01:36.090 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:01:36.181 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2305 ms
+25-Nov-2023 08:01:37.199 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml]
+25-Nov-2023 08:01:37.908 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 08:01:37.913 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml] has finished in [714] ms
+25-Nov-2023 08:01:37.918 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PI]] after start() had already been called. The second call will be ignored.
+25-Nov-2023 08:07:29.075 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PI] has started
+25-Nov-2023 08:07:29.102 WARNING [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PI] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2023 08:07:29.105 WARNING [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PI] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1759)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1589)
+25-Nov-2023 08:07:29.420 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+25-Nov-2023 08:07:29.422 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+25-Nov-2023 08:07:29.422 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+25-Nov-2023 08:07:30.008 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 08:07:30.023 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/PI] is completed
+25-Nov-2023 08:08:07.144 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Nov-2023 08:08:07.144 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:08:07.152 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Nov-2023 08:08:07.178 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:08:07.189 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:08:10.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.92
+25-Nov-2023 08:08:10.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 9 2023 11:22:56 UTC
+25-Nov-2023 08:08:10.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.92.0
+25-Nov-2023 08:08:10.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Nov-2023 08:08:10.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Nov-2023 08:08:10.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Nov-2023 08:08:10.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+25-Nov-2023 08:08:10.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7-44
+25-Nov-2023 08:08:10.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Nov-2023 08:08:10.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:08:10.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:08:10.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Nov-2023 08:08:10.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Nov-2023 08:08:10.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Nov-2023 08:08:10.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Nov-2023 08:08:10.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Nov-2023 08:08:10.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Projetos\NetBeans\crud\tomcat\conf\logging.properties
+25-Nov-2023 08:08:10.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2023 08:08:10.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2023 08:08:10.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2023 08:08:10.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Nov-2023 08:08:10.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:08:10.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Projetos\NetBeans\crud\tomcat
+25-Nov-2023 08:08:10.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Projetos\NetBeans\crud\tomcat\temp
+25-Nov-2023 08:08:10.673 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+25-Nov-2023 08:08:10.673 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+25-Nov-2023 08:08:10.673 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Nov-2023 08:08:10.760 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+25-Nov-2023 08:08:10.817 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:08:10.847 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 806 ms
+25-Nov-2023 08:08:10.909 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Nov-2023 08:08:10.909 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.92]
+25-Nov-2023 08:08:10.922 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml]
+25-Nov-2023 08:08:12.030 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 08:08:12.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml] has finished in [1,228] ms
+25-Nov-2023 08:08:12.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml]
+25-Nov-2023 08:08:12.782 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 08:08:12.787 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\site.xml] has finished in [636] ms
+25-Nov-2023 08:08:12.789 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs]
+25-Nov-2023 08:08:12.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\docs] has finished in [64] ms
+25-Nov-2023 08:08:12.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples]
+25-Nov-2023 08:08:13.613 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\examples] has finished in [759] ms
+25-Nov-2023 08:08:13.613 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager]
+25-Nov-2023 08:08:13.687 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\host-manager] has finished in [74] ms
+25-Nov-2023 08:08:13.687 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager]
+25-Nov-2023 08:08:13.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\manager] has finished in [86] ms
+25-Nov-2023 08:08:13.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT]
+25-Nov-2023 08:08:13.823 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos\NetBeans\crud\tomcat\webapps\ROOT] has finished in [50] ms
+25-Nov-2023 08:08:13.831 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 08:08:13.910 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3061 ms
+25-Nov-2023 08:12:24.011 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/PI]
+25-Nov-2023 08:12:26.338 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml]
+25-Nov-2023 08:12:27.109 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2023 08:12:27.115 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Projetos\NetBeans\crud\tomcat\conf\Catalina\localhost\PI.xml] has finished in [778] ms
+25-Nov-2023 08:12:27.119 INFO [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PI]] after start() had already been called. The second call will be ignored.
+25-Nov-2023 12:18:51.794 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Nov-2023 12:18:51.808 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 12:18:51.831 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Nov-2023 12:18:51.966 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [PI] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2023 12:18:51.969 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [PI] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1759)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1589)
+25-Nov-2023 12:18:51.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Nov-2023 12:18:52.009 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
